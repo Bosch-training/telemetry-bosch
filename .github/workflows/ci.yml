@@ -63,4 +63,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Docker build placeholder
-        run: echo "TODO: add Dockerfile and run 'docker build -t telemetry:ci .'"
+        run: |
+          echo "TODO: add Dockerfile and run 'docker build -t telemetry:ci .'"
